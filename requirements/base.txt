@@ -40,3 +40,4 @@ python-pptx==0.6.21
 requests==2.27.1
 django-timezone-field==4.2.3
 pyjwt==2.3.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
