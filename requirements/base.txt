@@ -5,7 +5,7 @@ rcssmin==1.1.0  # https://github.com/ndparker/rcssmin
 argon2-cffi==21.3.0  # https://github.com/hynek/argon2_cffi
 redis==3.5.3  # https://github.com/antirez/redis
 uvicorn[standard]==0.17.4  # https://github.com/encode/uvicorn
-Twisted==20.3.0  # Temporary constraint for channels: https://github.com/django/daphne/pull/359
+Twisted==24.7.0rc1  # Temporary constraint for channels: https://github.com/django/daphne/pull/359
 
 # Django
 # ------------------------------------------------------------------------------
