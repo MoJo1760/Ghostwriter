@@ -1,15 +1,15 @@
 pytz==2021.3  # https://github.com/stub42/pytz
 python-slugify==5.0.2  # https://github.com/un33k/python-slugify
-Pillow==9.2.0  # https://github.com/python-pillow/Pillow
+Pillow==9.4.0  # https://github.com/python-pillow/Pillow
 rcssmin==1.1.0  # https://github.com/ndparker/rcssmin
 argon2-cffi==21.3.0  # https://github.com/hynek/argon2_cffi
-redis==3.5.3  # https://github.com/antirez/redis
+redis==4.3.6  # https://github.com/antirez/redis
 uvicorn[standard]==0.17.4  # https://github.com/encode/uvicorn
-Twisted==20.3.0  # Temporary constraint for channels: https://github.com/django/daphne/pull/359
+Twisted==24.7.0rc1  # Temporary constraint for channels: https://github.com/django/daphne/pull/359
 
 # Django
 # ------------------------------------------------------------------------------
-django==3.2.11  # pyup: < 4.0  # https://www.djangoproject.com/
+django==4.2.14  # pyup: < 4.0  # https://www.djangoproject.com/
 django-environ==0.8.1  # https://github.com/joke2k/django-environ
 django-model-utils==4.2.0  # https://github.com/jazzband/django-model-utils
 django-allauth==0.47.0  # https://github.com/pennersr/django-allauth
@@ -18,7 +18,7 @@ django-compressor==3.1  # https://github.com/django-compressor/django-compressor
 django-redis==5.2.0  # https://github.com/niwinz/django-redis
 channels==3.0.4 # https://channels.readthedocs.io/en/stable/index.html
 channels-redis==3.3.0 # https://github.com/django/channels_redis/
-djangorestframework==3.12.4  # https://github.com/encode/django-rest-framework
+djangorestframework==3.15.2  # https://github.com/encode/django-rest-framework
 django-health-check==3.17.0  # https://github.com/KristianOellegaard/django-health-check
 
 # Ghostwriter specific
@@ -33,8 +33,8 @@ djangorestframework-api-key==2.2.0
 django-tinymce==3.4.0  # Deprecated, but kept here for legacy migrations
 docutils==0.18.1
 docxtpl==0.12.0
-dnspython==2.2.0
-jinja2==3.0.3
+dnspython==2.6.1
+jinja2==3.1.4
 python-docx==0.8.11
 python-nmap==0.7.1
 python-pptx==0.6.21
@@ -42,3 +42,6 @@ requests==2.27.1
 django-timezone-field==4.2.3
 pyjwt==2.4.0
 psutil==5.9.2
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
