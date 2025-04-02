@@ -9,10 +9,10 @@ Twisted==20.3.0  # Temporary constraint for channels: https://github.com/django/
 
 # Django
 # ------------------------------------------------------------------------------
-django==3.2.19  # pyup: < 4.1  # https://www.djangoproject.com/
+django==4.2.20  # pyup: < 4.1  # https://www.djangoproject.com/
 django-environ==0.10.0  # https://github.com/joke2k/django-environ
 django-model-utils==4.3.1  # https://github.com/jazzband/django-model-utils
-django-allauth==0.63.6  # https://github.com/pennersr/django-allauth
+django-allauth==65.3.0  # https://github.com/pennersr/django-allauth
 django-crispy-forms==1.14.0  # https://github.com/django-crispy-forms/django-crispy-forms
 django-compressor==4.3.1  # https://github.com/django-compressor/django-compressor
 django-redis==5.2.0  # https://github.com/niwinz/django-redis
@@ -46,3 +46,4 @@ psutil==5.9.4
 django-taggit==3.1.0
 croniter==2.0.5
 cvss==3.2
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
