@@ -46,3 +46,4 @@ psutil==5.9.4
 django-taggit==3.1.0
 croniter==2.0.5
 cvss==3.2
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
